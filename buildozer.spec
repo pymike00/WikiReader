@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Wikireader
+title = WikiReader
 
 # (str) Package name
 package.name = myapp
