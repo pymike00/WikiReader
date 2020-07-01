@@ -7,7 +7,7 @@ Using Python 3.8+, create a virtual environment using [venv](https://docs.python
 
 
 ### To to build the App for Smartphone:
-You can use [Buildozer](https://github.com/kivy/buildozer). 
+You can use [Buildozer](https://github.com/kivy/buildozer). A buildozer.spec file is provided with the repo.
 
 
 ### To to build the App for Desktop:
