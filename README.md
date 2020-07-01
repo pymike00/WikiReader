@@ -1,16 +1,16 @@
 # WikiReader
-Multi platform application to browse Wikipedia's summaries. Can be built to run standalone on Android and iOS. Written using Kivy and KivyMD, as a project for my YouTube Series "How to Build Smartphone Apps With Python".
+Multi platform application to browse Wikipedia's summaries. Can be built to run standalone on Android, iOS, Linux, MacOS, Windows. Written using Kivy and KivyMD, as a project for my YouTube Series "How to Build Apps for Smartphone (and desktop!) With Python".
 
 
-### To run the app locally:
+### How to run the app locally:
 Using Python 3.8+, create a virtual environment using [venv](https://docs.python.org/3/library/venv.html) and install the dependencies with pip install -r requirements.txt. Then, run the main.py script. Please note that Kivy 1.11 does not support Python 3.8. You can use 2.0 (rc if final not yet available) instead.
 
 
-### To to build the App for Smartphone:
+### How to build the App for Smartphone:
 You can use [Buildozer](https://github.com/kivy/buildozer). A buildozer.spec file is provided with the repo. The procedure is explained in lesson 2 of the series.
 
 
-### To to build the App for Desktop:
+### How to build the App for Desktop:
 You can use [PyInstaller](https://github.com/pyinstaller/pyinstaller). Feel free to watch my related [italian](https://youtu.be/BYtSNfEacSo) or [english](https://youtu.be/vg24wionhFg) video tutorials  to learn how to use it.
 
 
