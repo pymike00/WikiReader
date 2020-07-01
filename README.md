@@ -7,11 +7,11 @@ Using Python 3.8+, create a virtual environment using [venv](https://docs.python
 
 
 ### To to build the App for Smartphone:
-You can use [Buildozer](https://github.com/kivy/buildozer). A buildozer.spec file is provided with the repo.
+You can use [Buildozer](https://github.com/kivy/buildozer). A buildozer.spec file is provided with the repo. The procedure is explained in lesson 2 of the series.
 
 
 ### To to build the App for Desktop:
-You can use [PyInstaller](https://github.com/pyinstaller/pyinstaller). 
+You can use [PyInstaller](https://github.com/pyinstaller/pyinstaller). Feel free to watch my related [italian](https://youtu.be/BYtSNfEacSo) or [english](https://youtu.be/vg24wionhFg) video tutorials  to learn how to use it.
 
 
 ### Questions
