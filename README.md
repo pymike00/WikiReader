@@ -23,7 +23,7 @@ Q: Will you publish this same series on your international channel as well? \
 A: I am not planning to release the series on my International YouTube channel at the moment, but I might definitely do so in the future. If you follow my international channel and are interested in the series, please get in touch on [twitter](https://www.twitter.com/pymike00)
 
 Q: The endpoints you are connecting to look very weird: why are you doing so? \
-A: I agree! I would definitely love to get rid of those bad looking huge hardcoded strings in favour of something elegant like a REST endpoint. However I could not find anything as such to connect to Wikipedia's db. Feel free to get in touch on [twitter](https://www.twitter.com/pymike00) or send a pull request if you have a better alternative. Thanks.
+A: I agree! Unfortunately the REST endpoints offered by Wikimedia only provide a one line string as "summary" of single voices. Therefore, I opted for using the endpoints provided by the Action API. I will however also attach a version of this app that uses the REST Endpoints. Feel free to get in touch on [twitter](https://www.twitter.com/pymike00) or send a pull request if you have a better alternative. Thanks.
 
 Q: Why do you pack so much code into a single commit? \
 A: It's just one way to make it easier for people watching the series to access the code written for a specific lesson. 
@@ -33,4 +33,3 @@ A: It's just one way to make it easier for people watching the series to access 
 
 
 #### MD DOC UNDER DEVELOPMENT.
-
