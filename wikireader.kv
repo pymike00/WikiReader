@@ -1,0 +1,28 @@
+Screen:
+    GridLayout:
+        rows: 4
+
+        MDTextField:
+            id: mdtext
+            hint_text: "Cosa Stai Cercando?"
+            mode: "rectangle"
+                
+        MDRaisedButton:
+            text: "AVVIA RICERCA"
+            size_hint_x: 1
+            size_hint_y: 0.1
+            on_press: app.normal_search_button()
+
+        ScrollView:
+            MDLabel:
+                id: mdlab
+                text: "Benvenuti su Wikipedia Reader!"
+                size_hint_y: None
+                height: self.texture_size[1]
+                text_size: self.width, None
+
+        MDRaisedButton:
+            text: "CERCA ARTICOLO CASUALE"
+            size_hint_x: 1
+            size_hint_y: 0.1
+            on_press: app.random_search_button()
