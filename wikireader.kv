@@ -66,9 +66,25 @@ NavigationLayout:
                 height: self.texture_size[1]
 
             MDLabel:
-                text: "programmareinpython.it@gmail.com"
+                text: "programmareinpython.it"
                 font_style: "Caption"
                 size_hint_y: None
                 height: self.texture_size[1]
 
             ScrollView:
+
+                MDList:
+
+                    OneLineAvatarListItem:
+                        text: "Info App"
+                        on_press: app.show_app_info_dialog()
+
+                        IconLeftWidget:
+                            icon: "information-outline"
+
+                    OneLineAvatarListItem:
+                        text: "Contattaci"
+                        on_press: app.show_contact_info_dialog()
+
+                        IconLeftWidget:
+                            icon: "contact-mail-outline"
