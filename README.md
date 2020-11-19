@@ -1,6 +1,9 @@
 # WikiReader
 Multi platform application to browse Wikipedia's summaries. Can be built to run standalone on Android, iOS, Linux, MacOS, Windows. Written using Kivy and KivyMD, as a project for my YouTube Series "How to Build Apps for Smartphone (and desktop!) With Python".
 
+#### Q: Why do you pack so much code into a single commit? \
+#### A: It's just one way to make it easier for people watching the series to access the code written for a specific lesson.
+Please keep scrolling for more Q&A.
 
 ### How to run the app locally:
 Using Python 3.8+, create a virtual environment using [venv](https://docs.python.org/3/library/venv.html) and install the dependencies with pip install -r requirements.txt. Then, run the main.py script. Please note that Kivy 1.11 does not support Python 3.8. You can use 2.0 (rc if final not yet available) instead.
@@ -25,8 +28,6 @@ A: I am not planning to release the series on my International YouTube channel a
 Q: The endpoints you are connecting to look very weird: why are you doing so? \
 A: I agree! Unfortunately the REST endpoints offered by Wikimedia only provide a one line string as "summary" of single voices. Therefore, I opted for using the endpoints provided by the Action API. I will however also attach a version of this app that uses the REST Endpoints. Feel free to get in touch on [twitter](https://www.twitter.com/pymike00) or send a pull request if you have a better alternative. Thanks.
 
-Q: Why do you pack so much code into a single commit? \
-A: It's just one way to make it easier for people watching the series to access the code written for a specific lesson. 
 
 
 
