@@ -9,7 +9,7 @@ docutils==0.16
 filelock==3.0.12
 idna==2.9
 importlib-metadata==1.6.1
-Jinja2==2.11.2
+Jinja2==2.11.3
 Kivy==2.0.0rc3
 Kivy-Garden==0.1.4
 kivymd==0.104.1
