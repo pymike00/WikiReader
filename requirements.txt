@@ -24,6 +24,6 @@ requests==2.24.0
 sh==1.13.1
 six==1.15.0
 toml==0.10.1
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.23
 zipp==3.1.0
